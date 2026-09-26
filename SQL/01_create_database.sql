@@ -14,15 +14,3 @@ with (  format csv,
 		header true, 
 		delimiter ';'
 		);
-
-select count(*)
-from raw_superstore;
-
-create table superstore_clean as 
-select*
-from raw_superstore
-	where Sales is not null
-	and Quantity is not null
-	and Profit is not null
-	and Shipping_cost is not null
-	and Discount is not null;
