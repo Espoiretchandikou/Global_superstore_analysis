@@ -108,5 +108,6 @@ global_superstore_analysis/
 └── docs/
     └── insights.md
 
+```
 ## Auteur
 Ce Projet est réalisé dans le cadre de mon Master Système d'Information et Aide à la Décision à l'Université de Lille.
