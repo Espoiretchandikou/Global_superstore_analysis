@@ -1,6 +1,6 @@
-Global Superstore -- Sales & Profitability Analysis
+# Global Superstore -- Sales & Profitability Analysis
 
-Présentation du projet
+## Présentation du projet
 
 Ce projet consiste à analyser les performances commerciales d'une entreprise à partir du dataset Global Superstore.
 
@@ -10,14 +10,14 @@ Problématique
 
 Comment évolue la performance commerciale de l'entreprise, quels clients et produits génèrent le plus de valeur, et où se trouvent les principales opportunités d'amélioration ?
 
-Technologies utilisées
+## Technologies utilisées
 
-*Excel
-*PostgreSQL
-*SQL
-*Power BI
+* Excel
+* PostgreSQL
+* SQL
+* Power BI
 
-## 🔄 Méthodologie
+## Méthodologie
 
 Le projet suit le workflow suivant :
 
