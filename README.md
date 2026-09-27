@@ -84,3 +84,5 @@ Les remises supérieures ou égales à 20 % sont associées à des résultats n�
 Le segment **Consumer** représente le plus gros volume d'activité, tandis que les marges des trois segments restent relativement proches.
 
 L'analyse des clients montre également que certains clients peuvent générer un chiffre d'affaires important tout en restant peu ou pas rentables.
+|
+|_Readme.md
