@@ -58,7 +58,7 @@ Création d'un dashboard interactif avec Power BI afin de suivre :
 - Performance des clients
 - Performance des produits
 
-## 📊 Principaux indicateurs
+## Principaux indicateurs
 
 - **Chiffre d'affaires :** 12,64 M€
 - **Profit :** 1,47 M€
@@ -67,7 +67,7 @@ Création d'un dashboard interactif avec Power BI afin de suivre :
 - **Quantités vendues :** 178 280
 - **Marge globale :** 11,61 %
 
-## 🔎 Premiers insights
+## Premiers insights
 
 ### Performance commerciale
 
@@ -84,26 +84,3 @@ Les remises supérieures ou égales à 20 % sont associées à des résultats n�
 Le segment **Consumer** représente le plus gros volume d'activité, tandis que les marges des trois segments restent relativement proches.
 
 L'analyse des clients montre également que certains clients peuvent générer un chiffre d'affaires important tout en restant peu ou pas rentables.
-
-## 📁 Structure du projet
-
-```text
-global-superstore-analysis/
-│
-├── README.md
-│
-├── data/
-│   └── README.md
-│
-├── sql/
-│   ├── 01_create_database.sql
-│   ├── 02_data_cleaning.sql
-│   └── 03_analysis.sql
-│
-├── powerbi/
-│   └── Global_Superstore_Dashboard.pbix
-│
-├── screenshots/
-│
-└── docs/
-    └── insights.md
