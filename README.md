@@ -6,7 +6,7 @@ Ce projet consiste à analyser les performances commerciales d'une entreprise à
 
 L'objectif est d'identifier les principaux facteurs de performance commerciale, d'analyser la rentabilité des produits et des clients, et de mettre en évidence les opportunités d'amélioration.
 
-Problématique
+## Problématique
 
 Comment évolue la performance commerciale de l'entreprise, quels clients et produits génèrent le plus de valeur, et où se trouvent les principales opportunités d'amélioration ?
 
