@@ -98,7 +98,7 @@ global_superstore_analysis/
 ├── sql/
 │   ├── 01_create_database.sql
 │   ├── 02_data_cleaning.sql
-│   └── 03_analysis.sql
+│   └── 03_data_analysis.sql
 │
 ├── powerbi/
 │   └── Global_Superstore_Dashboard.pbix
