@@ -88,7 +88,7 @@ L'analyse des clients montre également que certains clients peuvent générer u
 ## Structure du projet
 
 ```text
-global-superstore-analysis/
+global_superstore_analysis/
 │
 ├── README.md
 │
