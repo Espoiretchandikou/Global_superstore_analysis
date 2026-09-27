@@ -1,141 +1,109 @@
 Global Superstore -- Sales & Profitability Analysis
 
-Présentation
+Présentation du projet
 
-Ce projet consiste à analyser les performances commerciales et la rentabilité des ventes du dataset Global Superstore.
-L’objectif est de transformer des données commerciales brutes en informations exploitables à travers plusieurs étapes à savoir:exploration, nettoyage, analyse et visualisation.
-Plusieurs outils sont utilisés dans le cadre de ce projet notamment Excel, PostgreSQL, SQL et Power BI afin de reproduire une démarche complète d’analyse de données.
+Ce projet consiste à analyser les performances commerciales d'une entreprise à partir du dataset Global Superstore.
 
+L'objectif est d'identifier les principaux facteurs de performance commerciale, d'analyser la rentabilité des produits et des clients, et de mettre en évidence les opportunités d'amélioration.
 
-Objectifs du projet
+Problématique
 
-* Analyser le chiffre d’affaires et le profit.
-
-* Étudier la rentabilité des produits et sous-catégories.
-
-* Identifier les catégories et segments clients les plus performants.
-
-* Analyser l’impact des remises sur la rentabilité.
-
-* Segmenter les clients selon leur catégorie.
-
-* Construire un dashboard interactif permettant d’explorer les résultats.
+Comment évolue la performance commerciale de l'entreprise, quels clients et produits génèrent le plus de valeur, et où se trouvent les principales opportunités d'amélioration ?
 
 Technologies utilisées
 
-* Excel: Exploration initiale et contrôle des données
+*Excel
+*PostgreSQL
+*SQL
+*Power BI
 
-* PostgreSQL: Stockage, nettoyage et transformation des données
+## 🔄 Méthodologie
 
-* SQL: Analyse exploratoire et calcul des indicateurs
+Le projet suit le workflow suivant :
 
-* Power BI: Visualisation et création du Dashboard
+**Excel → PostgreSQL → SQL → Power BI**
 
-* DAX: Création des mesures et KPI
+### 1. Exploration et nettoyage
 
+- Contrôle de la qualité des données
+- Analyse des valeurs manquantes
+- Vérification des doublons
+- Contrôle des dates
+- Vérification des valeurs aberrantes
+- Nettoyage des données
 
-Méthodologie
+### 2. Analyse SQL
 
-Données brutes =>Excel(Exploration initiale)=> PostgreSQL(Import, nettoyage, Analyse et calcul des indicateurs)=>
-Table propre =>Power BI (Modélisation, DAX et visualisation)=>Dashboard interactif=> Business Insights.
+Analyse des :
 
+- KPI commerciaux
+- performances annuelles
+- catégories et sous-catégories
+- clients
+- segments clients
+- produits
+- rentabilité
+- remises et marges
 
-1. Exploration avec Excel
+### 3. Data Visualisation
 
-Dans cette première étape, nous avons explorer les données avec Excel afin de comprendre la structure du dataset et d’identifier les principales variables disponibles.
+Création d'un dashboard interactif avec Power BI afin de suivre :
 
-Cette étape a notamment permis d’examiner les informations relatives :
+- Chiffre d'affaires
+- Profit
+- Marge
+- Commandes
+- Clients
+- Performance des catégories
+- Performance des clients
+- Performance des produits
 
-* aux ventes
-  
-* aux commandes
-  
-* aux clients
-  
-* aux produits
-  
-* aux catégories
-  
-* aux remises
-  
-* aux coûts d’expédition
-  
-* aux profits.
+## 📊 Principaux indicateurs
 
-2. Nettoyage et préparation avec PostgreSQL
-   
-Les données ont ensuite été importées dans PostgreSQL.
+- **Chiffre d'affaires :** 12,64 M€
+- **Profit :** 1,47 M€
+- **Commandes :** 25 034
+- **Clients :** 1 590
+- **Quantités vendues :** 178 280
+- **Marge globale :** 11,61 %
 
-Deux tables ont été utilisées :
-* table brute : conservation des données originales
-* table propre : données nettoyées et préparées pour l’analyse.
-  
-Les opérations réalisées comprennent notamment :
-* contrôle des doublons
-* vérification des valeurs manquantes
-* contrôle des formats
-* correction des données incohérentes
-* préparation des variables nécessaires à l’analyse.
+## 🔎 Premiers insights
 
-La table propre constitue ensuite la source utilisée pour le travail dans Power BI.
+### Performance commerciale
 
-3. Analyse avec SQL
-   
-Plusieurs analyses ont été réalisées avec SQL afin d’étudier :
-* le chiffre d’affaires
-* le profit
-* la marge
-* les performances par catégorie
-* les performances par sous-catégorie
-* l’impact des remises
-* la performance des segments clients
-* la contribution des clients
-Les résultats obtenus avec SQL servent de base à l’analyse et à la construction du dashboard Power BI.
+Le chiffre d'affaires et le profit progressent chaque année entre 2011 et 2014.
 
-4. Dashboard Power BI
-   
-Le dashboard a été construit à partir de la table propre.Il est organisé en trois pages.
+### Rentabilité des produits
 
-Page 1--Vue d’ensemble
-Analyse de la performance commerciale globale :
-* chiffre d’affaires
-* profit
-* marge
-* commandes
-* clients
-* quantité vendue
-* évolution du CA et du profit
-* performance par catégorie
-* performance par segment client.
+La sous-catégorie **Tables** génère 757 K€ de chiffre d'affaires mais affiche un profit négatif de 64 K€.
 
-Page 2--Produits & Rentabilité
-Analyse de la rentabilité des produits :
-* profit par sous-catégorie
-* marge par sous-catégorie
-* CA et profit par catégorie
-* relation entre remise et profit
-* filtres par catégorie, région et période.
-  
-Page 3--Analyse des clients
+Les remises supérieures ou égales à 20 % sont associées à des résultats négatifs pour cette sous-catégorie.
 
-Analyse de la clientèle :
-* segmentation Consumer / Corporate / Home Office 
-* CA par segment
-* profit par segment
-* nombre de clients par segment
-* CA moyen par client
-* Top 10 clients par CA
-* tableau de performance des clients.
+### Analyse clients
 
-5. Mesures DAX
-   
-Les principaux indicateurs du dashboard ont été créés avec DAX :
-* CA
-* Profit
-* Marge %
-* Nombre de commandes
-* Nombre de clients
-* Quantité vendue
-* CA moyen par client
+Le segment **Consumer** représente le plus gros volume d'activité, tandis que les marges des trois segments restent relativement proches.
 
-6. Business Insights
+L'analyse des clients montre également que certains clients peuvent générer un chiffre d'affaires important tout en restant peu ou pas rentables.
+
+## 📁 Structure du projet
+
+```text
+global-superstore-analysis/
+│
+├── README.md
+│
+├── data/
+│   └── README.md
+│
+├── sql/
+│   ├── 01_create_database.sql
+│   ├── 02_data_cleaning.sql
+│   └── 03_analysis.sql
+│
+├── powerbi/
+│   └── Global_Superstore_Dashboard.pbix
+│
+├── screenshots/
+│
+└── docs/
+    └── insights.md
