@@ -84,5 +84,25 @@ Les remises supérieures ou égales à 20 % sont associées à des résultats n�
 Le segment **Consumer** représente le plus gros volume d'activité, tandis que les marges des trois segments restent relativement proches.
 
 L'analyse des clients montre également que certains clients peuvent générer un chiffre d'affaires important tout en restant peu ou pas rentables.
-|
-|_Readme.md
+
+## Structure du projet
+
+global-superstore-analysis/
+│
+├── README.md
+│
+├── data/
+│   └── README.md
+│
+├── sql/
+│   ├── 01_create_database.sql
+│   ├── 02_data_cleaning.sql
+│   └── 03_analysis.sql
+│
+├── powerbi/
+│   └── Global_Superstore_Dashboard.pbix
+│
+├── screenshots/
+│
+└── docs/
+    └── insights.md
