@@ -10,7 +10,7 @@ from raw_superstore
 	and Shipping_cost is not null
 	and Discount is not null;
 
-Vérification du nombre de lignes après nettoyage
+---Vérification du nombre de lignes après nettoyage
 SELECT COUNT(*)
 FROM superstore_clean;
 
