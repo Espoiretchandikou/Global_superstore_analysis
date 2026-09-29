@@ -18,7 +18,7 @@ La catégorie **Technology** génère le chiffre d'affaires le plus élevé, ave
 **Office Supplies** génère environ **3,7 M€ de chiffre d'affaires**, mais présente une marge élevée d'environ **13,69 %**.
 À l'inverse, **Furniture** représente environ **4,1 M€ de chiffre d'affaires**, mais sa marge est nettement plus faible, autour de **6,8 %**.
 
-### Insight
+## Insight
 On peut donc conclure que le chiffre d'affaires seul ne suffit donc pas à mesurer la performance d'une catégorie. Furniture génère un volume important de ventes mais contribue proportionnellement moins à la rentabilité.
 ---
 ## 3. Analyse des produits et remises
@@ -30,7 +30,7 @@ La sous-catégorie **Tables** constitue notre principal point d'attention en mat
 L'analyse par niveau de remise montre que les niveaux de remise supérieurs à **20 %** sont associés à des profits négatifs pour cette sous-catégorie.
 Cette relation constitue un signal d'alerte commercial, mais ne permet pas à elle seule de conclure que la remise est la cause directe des pertes.
 
-### Insight
+## Insight
 Une analyse plus détaillée des prix, remises et coûts pourrait permettre d'identifier les conditions commerciales à privilégier pour améliorer la rentabilité des Tables.
 ---
 ## 4. Analyse des clients
@@ -57,22 +57,22 @@ L'analyse des principaux clients montre qu'un chiffre d'affaires élevé ne gara
 Par exemple, **Sean Miller** génère plus de **31 000 € de chiffre d'affaires**, mais son profit global est négatif (**−1 084 €**).
 L'analyse détaillée montre notamment que les ventes de la sous-catégorie **Machines** génère un profit négatif pour ce client, avec une remise moyenne élevée.
 
-### Insight
+## Insight
 Le suivi des clients doit donc intégrer à la fois le chiffre d'affaires et la rentabilité afin d'identifier les clients ou commandes nécessitant une analyse commerciale spécifique.
 ---
 
 ## 6. Recommandations business
 Au regard des résultats observés, nous recommandons plusieurs axes d'amélioration:
 
-### 1. Surveiller la rentabilité de Furniture
+## 1. Surveiller la rentabilité de Furniture
 Analyser les prix, remises, coûts et sous-catégories afin d'identifier les facteurs expliquant la marge plus faible.
-### 2. Revoir la politique de remise sur Tables
+## 2. Revoir la politique de remise sur Tables
 Étudier les commandes fortement remisées et tester des niveaux de remise permettant de préserver davantage la marge.
-### 3. Suivre la rentabilité client
+## 3. Suivre la rentabilité client
 Ne pas se limiter au chiffre d'affaires pour évaluer la contribution des clients. Mettre en place un suivi combinant CA, profit, marge et volume de commandes.
-### 4. Analyser les produits déficitaires
+## 4. Analyser les produits déficitaires
 Identifier les produits générant des pertes et étudier leur prix, remise, coût logistique et fréquence de vente.
-### 5. Mettre en place un suivi régulier des KPI
+## 5. Mettre en place un suivi régulier des KPI
 Suivre dans le temps :
 - Chiffre d'affaires
 - Profit
