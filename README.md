@@ -110,5 +110,5 @@ global_superstore_analysis/
 
 ```
 ## Auteur
-Nom : TCHANDIKOU
-Prénoms: G. Espoire
+*Nom : TCHANDIKOU
+*Prénoms: G. Espoire
